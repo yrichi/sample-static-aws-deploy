@@ -1,0 +1,14 @@
+aws_region       = "eu-west-3"
+bucket_name      = ""
+local_src_directory = ""
+
+
+content_type_mapping = {
+  html = "text/html",
+  css  = "text/css",
+  js   = "application/javascript",
+  png  = "image/png",
+  jpg  = "image/jpeg",
+  svg  = "image/svg+xml",
+  json = "application/json"
+}
